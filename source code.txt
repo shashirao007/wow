@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>project mentioned by SIRI Murthy</title>
+    </head>
+	<h1 align="center"> Welcome INPUT to OUTPUT transtalor(SIRI Murthy)<h1>
+	<h3 align="center">-> By srinivas rao :)<h3>
+	
+    <body>
+        <p> Enter the input</p>
+        <input type="text" id="txt" name="txt" onclick="this.value = '' "/>
+        <button onclick="getAndSetVal();">submit</button>
+		<p>---------------------------------------------------------------------<p>
+		<p> The output is</p>
+        <input type="text" id="txt2" name="txt" onclick="this.value = '' "/>
+        <!-- clear input on mouse click-->
+        
+        <script type="text/javascript">
+            
+           
+            
+            function getAndSetVal()
+            {
+                var txt1 = document.getElementById('txt').value;
+                document.getElementById('txt2').value = txt1;
+            }
+		</script>	
+		
+	</body>
+</html>
+	
